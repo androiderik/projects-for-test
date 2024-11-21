@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { LimitedCounter  } from './counter';
 import LazyLoad from './lazyLoadImages';
 
 import reportWebVitals from './reportWebVitals';
@@ -8,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <LimitedCounter />
     <LazyLoad />
   </React.StrictMode>
 );
